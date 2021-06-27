@@ -9,24 +9,13 @@
 </head>
 <body>
     <section>
-        <header>
-            <div id="header">
-                <img id="logo" src="img/logo.png" alt="logo">
-                <ul>
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">CAREERS</a></li>
-                    <li><a href="">CONTACTS</a></li>
-                </ul>
-            </div><!--header-->
-            
-            <div id="mainbanner">
-                <img id="ship_img" src="img/index_02.jpg" alt="ship">
-            </div>
-        </header>
-
+		<%@ include file="include/header.jsp" %>
+		
+        <div id="mainbanner">
+            <img id="ship_img" src="img/index_02.jpg" alt="ship">
+        </div>
+        
         <div id="wrap">
-
             <div id="aboutus">
                 <div id="about_box">
 
@@ -44,7 +33,7 @@
                            We have established newly ship Management Company<br>
                            TJSM Co., Ltd in 2014.<br><br><br>
                         </p>
-                        <button>&nbsp&nbsp&nbsp&nbspMORE+</button>
+                        <button><a href="/about_us.do" id="more">&nbsp&nbsp&nbsp&nbspMORE+</a></button>
                     </div><!--right-->
 
                 </div><!--about_box-->
@@ -62,18 +51,7 @@
                 </div><!--img_box-->
             </div><!--container-->
 
-            <footer>
-                <div id="footer">
-                    <div>
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div>
-                        <p>TJSM Co., Ltd.&nbsp&nbsp (7F Korea Seafarer’s Center) 66, Chungjang-daero 9beon-gil, Jung-gu, Busan, Korea 48934<br>
-                            Tel : +82 51 746 4116 &nbsp&nbsp Fax : +82 51 746 4117 &nbsp&nbsp E-mail : tjsm@tjsm.co.kr 
-                        </p>
-                    </div>
-                </div>
-            </footer>
+			<%@ include file="include/footer.jsp" %>
 
         </div><!--wrap-->
     </section>
