@@ -25,8 +25,7 @@
 		    text-align: center;
 		}
 		#logo{
-		    width: 118px;
-		    height: 159px;
+    		margin-top: 30px;
 		}
 		#header ul{
 		    text-align:center;
@@ -41,6 +40,7 @@
 		    font-size: 25px;
 		    text-decoration: none;
 		    color: #333333;
+	        border-bottom: solid 1px black;
 		}
 		#header ul li a:hover{
 		    font-weight: bold;
@@ -52,7 +52,7 @@
 <body>
     <header>
         <div id="header">
-            <a href="/"><img id="logo" src="img/logo.png" alt="logo"></a>
+            <a href="/"><img id="logo" src="img/logo_text.png" alt="logo"></a>
             <ul>
                 <li><a href="/about_us.do">ABOUT US</a></li>
                 <li><a href="/services.do">SERVICES</a></li>
